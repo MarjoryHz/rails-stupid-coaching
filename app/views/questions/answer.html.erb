@@ -1,0 +1,6 @@
+<div class="answer-container border p-5 rounded mt-5" style="max-width: 600px; margin: 0 auto;">
+  <h1 class="mb-4">Réponse</h1>
+  <p><strong>Question :</strong> <%= params[:question] %></p>
+  <p class="response alert alert-info"><%= @response %></p>
+  <%= link_to "Poser une autre question", "/ask", class: "btn btn-primary" %>
+</div>
